@@ -13,3 +13,5 @@
 ### 然后运行前端查看效果，cd front-end && npm i && npm start，打开地址http://localhost:8000
 
 ### 前端主要就两个文件/front-end/public/static/jsmpeg.min.js、/front-end/public/static/view-stream.html
+
+### 参考https://my.oschina.net/chengpengvb/blog/1832469
