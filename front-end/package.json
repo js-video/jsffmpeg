@@ -1,0 +1,29 @@
+{
+  "name": "jsffmpeg",
+  "version": "1.0.0",
+  "description": "jsffmpeg",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development PORT=8000 node node_modules/@fay-next/config/devServer/config.js",
+    "build": "next build",
+    "pro": "npm run clear && next build && cross-env NODE_ENV=production PORT=3000 node node_modules/@fay-next/config/devServer/config.js",
+    "export": "npm run clear && next build && next export && npm run dist",
+    "dist": "cp -r ./out/_next ./out/404 ./out/sw.js ./out/home && rm -rf ../dist/home/* && cp -r ./out/home/* ../dist/home/",
+    "clear": "rm -rf .next out",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fay-react/lib": "0.0.1-alpha.31",
+    "@fay-react/material": "0.0.1-alpha.7",
+    "@types/node-fetch": "^2.5.7",
+    "moment": "^2.25.3",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@fay-next/config": "0.0.1-alpha.12",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

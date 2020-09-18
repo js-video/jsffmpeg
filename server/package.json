@@ -1,0 +1,15 @@
+{
+  "name": "jsmpeg-master",
+  "version": "1.0.0",
+  "description": "JSMpeg is a Video Player written in JavaScript. It consists of an MPEG-TS demuxer, MPEG1 video & MP2 audio decoders, WebGL & Canvas2D renderers and WebAudio sound output. JSMpeg can load static videos via Ajax and allows low latency streaming (~50ms) via WebSockets.",
+  "main": "jsmpeg.min.js",
+  "scripts": {
+    "start": "node websocket-relay.js supersecret 8081 8082",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^7.3.1"
+  }
+}

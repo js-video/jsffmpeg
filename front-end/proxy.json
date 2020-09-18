@@ -1,0 +1,9 @@
+[
+  {
+    "path": "api",
+    "target": "http://ceshi3216.tianlad.com/api/",
+    "changeOrigin": true,
+    "secure": false,
+    "cookiePathRewrite": "/"
+  }
+]
