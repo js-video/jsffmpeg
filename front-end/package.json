@@ -16,10 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "@fay-react/lib": "0.0.1-alpha.31",
-    "@fay-react/material": "0.0.1-alpha.7",
-    "@types/node-fetch": "^2.5.7",
-    "moment": "^2.25.3",
-    "node-fetch": "^2.6.0"
+    "@fay-react/material": "0.0.1-alpha.7"
   },
   "devDependencies": {
     "@fay-next/config": "0.0.1-alpha.12",
